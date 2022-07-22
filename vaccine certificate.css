@@ -1,0 +1,53 @@
+#para	
+{
+	padding-left: 15px;
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+}
+span
+{
+	color: yellow;
+}
+#modi
+{
+	float: left;
+	padding-top: 10px; 
+	padding-left: 25px;
+}
+input
+{
+	border:none;
+	font-weight: bold;
+}
+input:focus
+{
+	outline: none;
+	border: none;
+}
+#x
+{
+	position: relative;
+	left: 3em;
+	bottom: 2em;
+}
+#y
+{
+	position: relative;
+	top: 1em;
+}
+#u
+{
+	text-transform: uppercase;
+}
+#i
+{
+	position: relative;
+	left: 2em;
+}
+#img
+{
+	position: relative;
+	right: 1em;
+	top: 1.5em;
+}

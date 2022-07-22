@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="vaccinestyle.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+	<title>Vaccination form details</title>
+</head>
+<body>
+	<form id="myform" action="readvaccinedetails.php" method="POST">
+		<table class="main">
+			<tr>
+				<th colspan="2">
+					<i class="fas fa-syringe"></i>Covid-19 vaccine registration
+				</th>
+			</tr>
+			<tr>
+				<td>Enter name</td>
+				<td><input type="text" name="name" id="name" maxlength="30" size="25"></td>
+			</tr>
+			<tr>
+				<td>Enter aadhar number</td>
+				<td><input type="text" name="anum" id="anum" pattern="[2-9]{1}[0-9]{3}\s{1}[0-9]{4}\s{1}[0-9]{4}" size="25"></td>
+			</tr>
+			<tr>
+				<td>Enter mobile number</td>
+				<td><input type="text" name="num" id="num" pattern="[0-9]{10}" size="25"></td>
+			</tr>
+			<tr>
+				<td>Enter Birth Date</td>
+				<td><input type="date" name="age" id="age" size="25"></td>
+			</tr>
+			<tr>
+			<td>Vaccine</td>
+			<td>
+					<label for="vaccine" id="x">Covishield</label>
+					<input type="radio" name="vaccine" id="cs" value="Covishield">
+					<label for="vaccine" id="y">Covaxin</label>
+					<input type="radio" name="vaccine" id="cvx" value="Covaxin">	
+			</td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<input type="radio" name="gender" id="m" value="Male">
+					<label for="gender">Male</label>
+					<input type="radio" name="gender" id="f" value="Female">
+					<label for="gender">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="button" name="btn" id="bt" value="Generate" onclick="Generate()"></td>
+				<td><input type="text" name="val" id="val" size="25"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submit" value="Register" id="reg"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+<script>
+	function Generate()
+	{
+		var num=Math.floor(Math.random()*10000 + 1);
+		var n = "593485" + num.toString();
+		document.getElementById("val").value=n;
+	}
+</script>
+</html>

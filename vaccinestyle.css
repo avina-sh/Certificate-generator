@@ -1,0 +1,103 @@
+th 
+{
+	background: #2980b9;
+	color: white;
+	margin:0px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+input
+{
+	font-size: 18px;
+	color: #2980b9;
+	background-color: white;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	border: 3px solid rgba(0,0,0,0);
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+td
+{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: green;
+	background-color: white;
+	padding: 13px 13px 13px 20px;
+	font-family: 'Poppins', sans-serif;
+
+}
+input:focus
+{
+	background: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+#myform 
+{
+	margin-left: 450px;
+	background: white;
+	margin-right: 480px;
+}
+.fa-syringe
+{
+	float: right;
+}
+#bt
+{
+	padding: 10px;
+	font-size: 20px;
+	border:none;
+	border-radius: 8px;
+	color: white;
+	background-color: #5cd65c;
+}
+#bt:hover
+{
+	background-color: #47d147;
+  	color: white;
+}
+#reg
+{
+	margin-left: 150px;
+	border: 1px solid green;
+	color: white;
+	background-color: #6666ff;
+	border-radius: 15px;
+	border: none;
+	box-shadow: 0px 9px #999;
+}
+#reg:hover
+{
+	background-color: #4d4dff;
+}
+#reg:active
+{
+	background-color: #4d4dff;
+  	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
+body
+{
+	background: rgb(89,3,160);
+background: linear-gradient(76deg, rgba(89,3,160,1) 0%, rgba(145,146,221,1) 25%, rgba(122,115,189,1) 75%, rgba(97,0,181,1) 100%, rgba(99,9,121,1) 100%);
+}
+#cs,#cvx
+{
+	position: relative;
+	bottom: 1.7em;
+}
+#m,#f
+{
+	position: relative;
+	top: 1.5em;
+}
+
+
+
+
