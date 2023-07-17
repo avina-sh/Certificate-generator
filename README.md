@@ -1,7 +1,7 @@
 # Certificate-generator
 This application allows users to effortlessly generate and manage their vaccine certificates online.
 
-With this tool, individuals can enter their personal details and generate a printable certificate to serve as proof of their vaccination.
+With this tool, individuals can enter their personal details and generate a certificate to serve as proof of their vaccination.
 Users can enter their information, including their name, date of birth, vaccination date, 
 and vaccine type, to generate their personalized vaccine certificate in a convenient and hassle-free manner.
 The application provides users with the ability to edit their information as needed.
